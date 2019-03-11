@@ -1,0 +1,12 @@
+
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libns3-gpsr-test
+Description: ns-3 module ns3-gpsr-test
+Version: devel
+Libs: -L${libdir} -Wl,-Bdynamic -lns3-gpsr-test
+Cflags: -I${includedir}
+Requires: libns3-gpsr
+
